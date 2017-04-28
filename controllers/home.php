@@ -1,2 +1,8 @@
 <?php
-echo 'home';
+getView('header');
+getView('home');
+getView('footer');
+
+
+
+
