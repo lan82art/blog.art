@@ -1,5 +1,25 @@
 <?php
-/*одминка
+/*
+ * {
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "twbs/bootstrap": "3.3.x-dev",
+    "components/jquery": "3.2.1"
+  }
+}
+
+ *
+ *
+ * одминка
  * создать или удалить категорию новости
  * новости надо создать редактировать удалить, поля смотреть в базе
  * создать или удалить инф страницу
