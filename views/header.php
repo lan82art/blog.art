@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?php // echo $GLOBALS['title']; ?></title>
+    <title><?php  echo $GLOBALS['title']; ?></title>
     <meta charset="UTF-8">
     <meta name = "robots" content="index,follow" />
     <title>HomeWork 4</title>
@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="/views/style/style.css" />
 </head>
 <body>
-div class="wrap">
+<div class="wrap">
 <div class="container-fluid">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -21,7 +21,6 @@ div class="wrap">
                     <li class="active"><a href="/">Главная<span class="sr-only">(current)</span></a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
                             <ul class="dropdown-menu">
