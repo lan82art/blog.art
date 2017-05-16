@@ -1,2 +1,2 @@
 <?php
-echo '404';
+getView('404');
