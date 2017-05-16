@@ -1,7 +1,7 @@
 <?php
-define('HOST','localhost');
+define('HOST','192.168.100.100');
 define('USER','root');
-define('PASS','Creation');
+define('PASS','KcR33sQjTAwagKh');
 define('DATABASE','news_blog');
 
 $link = mysqli_connect(HOST,USER,PASS,DATABASE) or die('Error connection');

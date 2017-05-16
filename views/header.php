@@ -20,6 +20,7 @@
                     <li class="active"><a href="/">Главная<span class="sr-only">(current)</span></a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    <?php if($_SESSION['auth']){?>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -27,9 +28,11 @@
                                 <li><a href="#">Выход</a></li>
                             </ul>
                         </li>
+                    <?php } else {?>
                         <li><a href="#">Войти</a></li>
+                    <?php } ?>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+            </div>
+        </div>
     </nav>
 </div>

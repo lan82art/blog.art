@@ -4,32 +4,28 @@
     <title><?php  echo $GLOBALS['title']; ?></title>
     <meta charset="UTF-8">
     <meta name = "robots" content="index,follow" />
-    <script src="../vendor/components/jquery/jquery.min.js"></script>
-    <script src="../vendor/twbs/bootstrap/dist/js/bootstrap.js"></script>
-    <link rel="stylesheet" href="../vendor/twbs/bootstrap/dist/css/bootstrap.css">
+    <script src="../../vendor/components/jquery/jquery.min.js"></script>
+    <script src="../../vendor/twbs/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../../vendor/twbs/bootstrap/dist/css/bootstrap.css">
     <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>-->
     <link rel="stylesheet" type="text/css" href="/views/style/style.css" />
 </head>
 <body>
 <div class="wrap">
-<div class="container-fluid">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">Главная<span class="sr-only">(current)</span></a></li>
+    <nav id="w4" class="navbar-inverse navbar-fixed-top navbar" role="navigation">
+        <div class="container"><div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w4-collapse" aria-expanded="true"><span class="sr-only">Toggle navigation</span>
+                    <!--<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>-->
+                </button><a class="navbar-brand" href="/admin/index.php"></a></div>
+            <div id="w4-collapse" class="navbar-collapse collapse in" aria-expanded="true">
+                <ul id="w5" class="navbar-nav nav">
+                    <li class="active"><a href="/">Главная</a></li>
+                    <li><a href="#">Cтатьи</a></li>
+                    <li><a href="#">Категории</a></li>
+                    <li><a href="#">Страницы</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Редактировать профиль</a></li>
-                                <li><a href="#">Выход</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Войти</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+            </div>
+        </div>
     </nav>
-</div>
