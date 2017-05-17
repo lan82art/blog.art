@@ -2,11 +2,12 @@
 <div class="container" style="padding: 70px 15px;">
     <div class="row">
         <div class="col-xs-2" style="background: blanchedalmond;">
-            sidebar
+            <?php
+                getSideBar();
+            ?>
         </div>
         <div class="col-xs-10">
             <?php
-            echo $hello;
             foreach ($GLOBALS['news'] as $value){?>
                 <div style="float: left;">
                     <?php echo $value['news_name'];?>

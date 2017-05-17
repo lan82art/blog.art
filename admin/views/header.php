@@ -15,9 +15,9 @@
     <nav id="w4" class="navbar-inverse navbar-fixed-top navbar" role="navigation">
         <div class="container"><div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w4-collapse" aria-expanded="true"><span class="sr-only">Toggle navigation</span>
-                    <!--<span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button><a class="navbar-brand" href="/admin/index.php"></a></div>
             <div id="w4-collapse" class="navbar-collapse collapse in" aria-expanded="true">
                 <ul id="w5" class="navbar-nav nav">
