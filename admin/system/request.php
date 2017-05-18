@@ -8,6 +8,9 @@ function getHeader(){
 function getFooter(){
     return require_once $_SERVER['DOCUMENT_ROOT']."/admin/controllers/footer.php";
 }
+function getHome(){
+    return require_once $_SERVER['DOCUMENT_ROOT']."/admin/controllers/home.php";
+}
 function getLink($route, $id){
     return '/index.php?route=' . $route. '&id='. $id;
 }
