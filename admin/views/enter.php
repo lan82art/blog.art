@@ -22,7 +22,7 @@
                     <h2>Вход в администативную часть</h2>
                 </div>
                 <div class="col-xs-12">&nbsp;</div>
-                <form method="post" action="../../admin/controllers/login.php">
+                <form method="post" action="/admin/index.php">
                     <p><input type="text" name="login" placeholder="Login"/></p>
                     <p><input type="password" name="password" placeholder="Password"/></p>
                     <input class="btn btn-primary" type="submit" value="Enter" style="width: 270px;">

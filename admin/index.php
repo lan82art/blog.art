@@ -14,10 +14,14 @@ if (!empty($_GET['route'])){
 require_once $_SERVER['DOCUMENT_ROOT']. "/config.php";
 require_once $_SERVER['DOCUMENT_ROOT']. "/admin/system/request.php";
 
-if($_SERVER['REQUEST_URI'] == '/admin/'){
-    require_once $_SERVER['DOCUMENT_ROOT']. "/admin/controllers/home.php";
-} elseif (!empty($filename) && file_exists($filename)){
-    require_once $filename;
-} else {
-    require_once $_SERVER['DOCUMENT_ROOT']. "/admin/controllers/404.php";
-}
+if(login($_POST['login'],$_POST['password'])) {
+
+
+    if ($_SERVER['REQUEST_URI'] == '/admin/') {
+        require_once $_SERVER['DOCUMENT_ROOT'] . "/admin/controllers/home.php";
+    } elseif (!empty($filename) && file_exists($filename)) {
+        require_once $filename;
+    } else {
+        require_once $_SERVER['DOCUMENT_ROOT'] . "/admin/controllers/404.php";
+    }
+} else {require_once $_SERVER['DOCUMENT_ROOT'] . "/admin/controllers/home.php";}
