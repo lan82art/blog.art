@@ -19,13 +19,13 @@
         <div class="col-xs-8 text-center" style="vertical-align: middle;">
             <div class="jumbotron">
                 <div class="col-xs-12">
-                    <h2>Вход в администативную часть</h2>
+                    <h2>Вход в административную часть</h2>
                 </div>
                 <div class="col-xs-12">&nbsp;</div>
-                <form method="post" action="/admin/index.php">
+                <form method="post" action="/admin/">
                     <p><input type="text" name="login" placeholder="Login"/></p>
                     <p><input type="password" name="password" placeholder="Password"/></p>
-                    <input class="btn btn-primary" type="submit" value="Enter" style="width: 270px;">
+                    <input class="btn btn-primary" type="submit" value="Enter" name="enter" style="width: 270px;">
                 </form>
             </div>
         </div>

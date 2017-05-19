@@ -7,15 +7,14 @@
  *
  * */
 session_start();
-//var_dump($_SERVER);
+
 if (!empty($_GET['route'])){
     $filename = $_SERVER['DOCUMENT_ROOT']. "/admin/controllers/".$_GET['route'].".php";
 }
 require_once $_SERVER['DOCUMENT_ROOT']. "/config.php";
 require_once $_SERVER['DOCUMENT_ROOT']. "/admin/system/request.php";
 
-if(login($_POST['login'],$_POST['password'])) {
-
+if(((login($_POST['login'],$_POST['password'])) && (isset($_POST['enter']))) OR ($_SESSION['odm'] == 1)) {
 
     if ($_SERVER['REQUEST_URI'] == '/admin/') {
         require_once $_SERVER['DOCUMENT_ROOT'] . "/admin/controllers/home.php";
@@ -24,4 +23,6 @@ if(login($_POST['login'],$_POST['password'])) {
     } else {
         require_once $_SERVER['DOCUMENT_ROOT'] . "/admin/controllers/404.php";
     }
-} else {require_once $_SERVER['DOCUMENT_ROOT'] . "/admin/controllers/home.php";}
+} else {
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/admin/controllers/enter.php";
+}

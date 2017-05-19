@@ -26,6 +26,9 @@
                     <li><a href="#">Категории</a></li>
                     <li><a href="#">Страницы</a></li>
                 </ul>
+                <ul id="w6" class="navbar-nav nav navbar-right">
+                    <li><a href="/admin/index.php?route=logout">Выход</a></li>
+                </ul>
             </div>
         </div>
     </nav>
