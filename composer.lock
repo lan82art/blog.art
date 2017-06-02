@@ -4,21 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d32b12d15a965dd019c270e122da20e7",
     "content-hash": "ea6363147ef0955eea678080158dcda0",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
-            "version": "4.6.2",
+            "version": "4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ckeditor/ckeditor-releases.git",
-                "reference": "268078ab43195b6004d64bc8764c41f2f829640e"
+                "reference": "8edc5545364d3bd2b928852a7c270a044d1b3ea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ckeditor/ckeditor-releases/zipball/268078ab43195b6004d64bc8764c41f2f829640e",
-                "reference": "268078ab43195b6004d64bc8764c41f2f829640e",
+                "url": "https://api.github.com/repos/ckeditor/ckeditor-releases/zipball/8edc5545364d3bd2b928852a7c270a044d1b3ea4",
+                "reference": "8edc5545364d3bd2b928852a7c270a044d1b3ea4",
                 "shasum": ""
             },
             "type": "library",
@@ -46,7 +45,7 @@
                 "text",
                 "wysiwyg"
             ],
-            "time": "2017-01-12 17:36:48"
+            "time": "2017-05-25T16:15:26+00:00"
         },
         {
             "name": "components/jquery",
@@ -88,7 +87,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2017-03-21 07:01:49"
+            "time": "2017-03-21T07:01:49+00:00"
         },
         {
             "name": "twbs/bootstrap",
@@ -139,7 +138,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2016-09-22 10:06:30"
+            "time": "2016-09-22T10:06:30+00:00"
         }
     ],
     "packages-dev": [],

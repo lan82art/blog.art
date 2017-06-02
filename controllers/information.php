@@ -13,6 +13,6 @@ while ($result[] = mysqli_fetch_assoc($res)){
     $GLOBALS['information'] = $result;
 }
 
-$title = $GLOBALS['information']['info_name'];
+$title = $GLOBALS['information'][0]['info_name'];
 
 getView('information');

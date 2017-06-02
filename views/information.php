@@ -8,8 +8,8 @@
                 <h2><?php echo $GLOBALS['error']; ?></h2>
             <?php
             } else {?>
-                <div><?php $GLOBALS['inform']['info_description']; ?></div>
-            <?php}?>
+                <div><?= $GLOBALS['information'][0]['info_description']; ?></div>
+            <?php } ?>
         </div>
         <div class="col-xs-2"></div>
     </div>

@@ -1,5 +1,5 @@
 <?php
-define('HOST','locahost');
+define('HOST','localhost');
 define('USER','root');
 define('PASS','');
 define('DATABASE','news_blog');

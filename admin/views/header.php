@@ -21,10 +21,10 @@
                 </button><a class="navbar-brand" href="/admin/index.php"></a></div>
             <div id="w4-collapse" class="navbar-collapse collapse in" aria-expanded="true">
                 <ul id="w5" class="navbar-nav nav">
-                    <li class="active"><a href="/">Главная</a></li>
-                    <li><a href="#">Cтатьи</a></li>
-                    <li><a href="#">Категории</a></li>
-                    <li><a href="#">Страницы</a></li>
+                    <li class="active"><a href="/admin">Главная</a></li>
+                    <li><a href="/admin/index.php?route=articles">Cтатьи</a></li>
+                    <li><a href="/admin/index.php?route=category">Категории</a></li>
+                    <li><a href="/admin/index.php?route=information">Страницы</a></li>
                 </ul>
                 <ul id="w6" class="navbar-nav nav navbar-right">
                     <li><a href="/admin/index.php?route=logout">Выход</a></li>
