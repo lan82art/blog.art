@@ -2,6 +2,9 @@
 function getView($name){
     return require_once $_SERVER['DOCUMENT_ROOT']."/admin/views/".$name.".php";
 }
+function getController($name){
+    return require_once $_SERVER['DOCUMENT_ROOT']."/admin/controllers/".$name.".php";
+}
 function getHeader(){
     return require_once $_SERVER['DOCUMENT_ROOT']."/admin/controllers/header.php";
 }

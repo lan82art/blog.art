@@ -6,6 +6,7 @@
     <meta name = "robots" content="index,follow" />
     <script src="../../vendor/components/jquery/jquery.min.js"></script>
     <script src="../../vendor/twbs/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../vendor/ckeditor/ckeditor/ckeditor.js"></script>
     <link rel="stylesheet" href="../../vendor/twbs/bootstrap/dist/css/bootstrap.css">
     <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>-->
     <link rel="stylesheet" type="text/css" href="/views/style/style.css" />
