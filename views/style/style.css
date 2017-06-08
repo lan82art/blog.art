@@ -41,9 +41,9 @@ body {
 #pagination{
     text-align: center;
 }
-.pagination>li>a{
+/*.pagination>li>a{
     border: 1px solid #990099;
-}
+}*/
 .footerLink{
     color: #ffffff;
     text-decoration: none;

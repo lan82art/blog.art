@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2><?= $GLOBALS['title']?></h2>
-                <form name="info_form" method="post" action="/admin/index.php?route=delete_article&action=group_delete">
+                <form name="article_form" method="post" action="/admin/index.php?route=delete_article&action=group_delete">
                 <table class="table table-hover">
                     <tr>
                         <td>ID</td><td>Delete</td><td>Category</td><td>Name</td><td>Data</td><td>Description</td><td>Image</td><td>Action</td>
