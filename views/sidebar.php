@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-2">
             <div class="list-group">
                 <?php foreach ($GLOBALS['sidebar_category'] as $value){
                     if($value['idcategory'] == $GLOBALS['categoryid']){ ?>
