@@ -20,7 +20,7 @@
                 <div style="clear:both"></div>
 
                 <div style="float: left">
-                    <img src=" <?php echo $value['image']; ?>" height="200" width="150"/>
+                    <img src="views/<?php echo $value['image']; ?>" height="200" width="150"/>
                 </div>
                 <div style="float: left; margin:0 0 10px 10px;">
                     <?php echo $value['short_description']; ?>
