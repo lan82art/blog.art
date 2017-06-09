@@ -1,8 +1,4 @@
-<?php getHeader();
-
-//var_dump($GLOBALS['select']);
-?>
-
+<?php getHeader(); ?>
     <div class="container" style="padding: 70px 15px;">
         <div class="row">
             <div class="col-xs-12">
@@ -22,7 +18,6 @@
                             <?php } else {?>
                                 <option value="<?= $val['idcategory']?>"><?= $val['category_name'] ?></option>
                             <?php } } ?>
-
                         </select>
                     </div>
                     <div class="form-group">
