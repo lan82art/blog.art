@@ -1,4 +1,7 @@
-<?php getHeader(); ?>
+<?php getHeader();
+
+//var_dump($GLOBALS['select']);
+?>
 
     <div class="container" style="padding: 70px 15px;">
         <div class="row">
