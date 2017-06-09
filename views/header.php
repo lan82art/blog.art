@@ -22,9 +22,9 @@
                 </button><a class="navbar-brand" href="/admin/index.php"></a></div>
             <div id="w4-collapse" class="navbar-collapse collapse in" aria-expanded="true">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">Главная<span class="sr-only">(current)</span></a></li>
+                    <li><a href="/">Главная<span class="sr-only">(current)</span></a></li>
                     <?php foreach ($GLOBALS['inform'] as $value) {?>
-                    <li><a href="index.php?route=information&id=<?php echo $value['idinfo']?>"><?php echo $value['info_name']?></a></li>
+                    <li><a href="/index.php?route=information&id=<?php echo $value['idinfo']?>"><?php echo $value['info_name']?></a></li>
                     <?php } ?>
                 </ul>
                 <ul id="w5" class="nav navbar-nav navbar-right">
@@ -37,7 +37,7 @@
                             </ul>
                         </li>
                     <?php } else {?>
-                        <li><a href="#">Войти</a></li>
+                        <!--<li><a href="#">Войти</a></li>-->
                     <?php } ?>
                 </ul>
             </div>

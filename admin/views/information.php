@@ -4,6 +4,21 @@
             <div class="col-xs-12">
                 <h2><?= $GLOBALS['title']?></h2>
                 <form name="info_form" method="post" action="/admin/index.php?route=delete_inform&action=group_delete">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <?php
+                            if($GLOBALS['pagecol'] > 1) {
+                                for ($i = 1; $i <= $GLOBALS['pagecol']; $i++) {
+                                    if ($i == $GLOBALS['page']) {
+                                        echo '<li class="active"><a href="/admin/index.php?route=information&page=' . $i . '">' . $i . '</a></li>';
+                                    } else {
+                                        echo '<li><a href="/admin/index.php?route=information&page=' . $i . '">' . $i . '</a></li>';
+                                    }
+                                }
+                            }
+                            ?>
+                        </ul>
+                    </nav>
                 <table class="table table-hover">
                     <tr>
                         <td>ID</td><td>Delete</td><td>Name</td><td>Content</td><td>Action</td>
@@ -16,6 +31,22 @@
                     </tr>
                        <?php } ?>
                 </table>
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <?php
+                            if($GLOBALS['pagecol'] > 1) {
+                                for ($i = 1; $i <= $GLOBALS['pagecol']; $i++) {
+                                    if ($i == $GLOBALS['page']) {
+                                        echo '<li class="active"><a href="/admin/index.php?route=information&page=' . $i . '">' . $i . '</a></li>';
+                                    } else {
+                                        echo '<li><a href="/admin/index.php?route=information&page=' . $i . '">' . $i . '</a></li>';
+                                    }
+                                }
+                            }
+                            ?>
+                        </ul>
+                    </nav>
+
                 <p><a href="/admin/index.php?route=edit_inform&action=create"><button type="button" class="btn btn-success">Создать страницу</button></a> </p>
                 <p><input type="submit" class="btn btn-danger" value="Удалить выбранные"/></p>
                 </form>

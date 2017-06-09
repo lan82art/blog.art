@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-xs-12">
             <h2><?= $GLOBALS['title']?></h2>
-            <form name="info_form" method="post" action="/admin/index.php?route=apply_delete">
+            <form name="info_form" method="post" action="/admin/index.php?route=apply_delete&act=information">
                 <table class="table table-hover">
                     <tr>
                         <td>ID</td><td>Name</td><td>Content</td>

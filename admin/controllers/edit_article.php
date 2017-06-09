@@ -1,4 +1,6 @@
 <?php
+    unset($GLOBALS['select']);
+    unset($GLOBALS['article']);
     if ($_GET['action'] == 'create'){
         $title = 'Создание новости';
 
@@ -8,16 +10,15 @@
         $res = mysqli_query($GLOBALS['link'],$sql);
         $_SESSION['art_edit_id'] = $_GET['id'];
 
-
         while ($result[] = mysqli_fetch_assoc($res)){
-            $GLOBALS['article'] = $result;
+            $article = $result;
         }
     }
 
     $sql = "SELECT idcategory, category_name FROM category";
     $res = mysqli_query($GLOBALS['link'],$sql);
     while ($result[] = mysqli_fetch_assoc($res)){
-        $GLOBALS['select'] = $result;
+        $select = $result;
 }
 
 getView('edit_article');
