@@ -1,6 +1,5 @@
 <?php
-    unset($GLOBALS['select']);
-    unset($GLOBALS['article']);
+
     if ($_GET['action'] == 'create'){
         $title = 'Создание новости';
 
@@ -14,6 +13,8 @@
             $article = $result;
         }
     }
+
+    unset($result);
 
     $sql = "SELECT idcategory, category_name FROM category";
     $res = mysqli_query($GLOBALS['link'],$sql);
