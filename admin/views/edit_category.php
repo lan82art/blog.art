@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2><?= $GLOBALS['title']?></h2>
-                <form action="/admin/index.php?route=cat_apply_edit&act=category" method="post">
+                <form action="/admin/index.php?route=apply_edit&act=category" method="post">
                     <div class="form-group">
                         <label for="category_name">Название категории</label>
                         <input type="text" class="form-control" id="category_name" placeholder="Название категории" name="category_name" value="<?php if(!empty($GLOBALS['category'][0]['category_name'])) echo $GLOBALS['category'][0]['category_name'] ?>">
